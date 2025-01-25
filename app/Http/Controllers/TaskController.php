@@ -46,7 +46,6 @@ class TaskController extends Controller
     {
         Gate::authorize('update', $task);
         return TaskResource::make($task);
-
     }
 
     /**

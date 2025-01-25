@@ -1,0 +1,133 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | フロントエンドアプリケーションの翻訳
+    |--------------------------------------------------------------------------
+    |
+    | 以下の言語行はフロントエンドアプリケーションで使用されます。
+    |
+    */
+
+    'users' => [
+        'status' => [
+            'verified' => '確認済み',
+            'not_verified' => '未確認',
+            'ask_verify' => 'メールを確認',
+        ],
+        'roles' => [
+            'regular' => '一般ユーザー',
+            'admin' => '管理者',
+        ],
+        'labels' => [
+            'id' => '番号',
+            'id_pound' => '#',
+            'first_name' => '名',
+            'last_name' => '姓',
+            'middle_name' => 'ミドルネーム',
+            'name' => '名前',
+            'avatar' => 'アバター',
+            'email' => 'メールアドレス',
+            'role' => '役割',
+            'roles' => '役割一覧',
+            'status' => 'ステータス',
+            'current_password' => '現在のパスワード',
+            'password' => 'パスワード',
+            'new_password' => '新しいパスワード',
+            'confirm_password' => 'パスワード確認',
+            'ask_upload_avatar' => 'アバターをアップロード',
+            'new_record' => '新規ユーザー',
+            'edit_record' => 'ユーザー編集',
+            'general_settings' => '一般設定',
+            'password_settings' => 'パスワード設定',
+            'avatar_settings' => 'アバター設定',
+        ],
+    ],
+    'messages' => [
+        'name' => 'メッセージ',
+    ],
+    'global' => [
+        'pages' => [
+            'home' => 'ホーム',
+            'users' => 'ユーザー',
+            'users_create' => '新規ユーザー',
+            'users_edit' => 'ユーザー編集',
+            'profile' => 'プロフィール',
+            'register' => '登録',
+            'login' => 'ログイン',
+            'logout' => 'ログアウト',
+            'forgot_password' => 'パスワードを忘れた',
+            'reset_password' => 'パスワードリセット',
+        ],
+        'phrases' => [
+            'clear_filters' => 'フィルターをクリア',
+            'loading' => '読み込み中...',
+            'sign_out' => 'サインアウト',
+            'all_records' => 'すべての記録',
+            'argh' => 'ああ！',
+            'success' => '成功！',
+            'fix_errors' => '次のエラーを修正してください:',
+            'no_records' => '記録が見つかりません。',
+            'login_desc' => 'アカウントをお持ちの方はログインしてください。',
+            'login_not_verified' => 'ログインするには、メールアドレスを確認してください。',
+            'register_desc' => 'アカウントをお持ちでない方は登録してください。',
+            'reset_password_desc' => 'パスワードを変更するにはフォームに記入してください。',
+            'login_ask' => 'アカウントをお持ちですか？',
+            'register_ask' => 'アカウントをお持ちでないですか？',
+            'forgot_password_desc' => 'パスワードを忘れた場合は、以下でリセットしてください。',
+            'forgot_password_ask' => 'パスワードを忘れましたか？',
+            'forgot_password_login' => '新しいパスワードを取得しましたか？ログインしてください。',
+            'already_registered_login' => 'すでに登録済みですか？ログインしてください。',
+            'inspire' => '素晴らしいものを作りましょう！',
+            'copyright' => sprintf('著作権 &copy; %s. %s. All rights reserved.', date('Y'), env('APP_NAME')),
+            'record_created' => '記録が正常に作成されました。',
+            'record_not_created' => '記録の作成中にエラーが発生しました。',
+            'record_updated' => '記録が正常に更新されました。',
+            'record_not_updated' => '記録の更新中にエラーが発生しました。',
+            'file_uploaded' => 'ファイルが正常にアップロードされました。',
+            'file_not_uploaded' => 'ファイルのアップロード中にエラーが発生しました。',
+            'password_updated' => 'パスワードが正常に更新されました。',
+            'password_not_updated' => 'パスワードの更新中にエラーが発生しました。',
+            'profile_updated' => 'プロフィールが正常に更新されました。',
+            'profile_not_updated' => 'プロフィールの更新中にエラーが発生しました。',
+            'not_found_title' => '404',
+            'not_found_text' => 'お探しのページは見つかりませんでした。',
+            'not_found_back' => '戻る',
+            'input_files_select' => 'ファイルをここにドラッグするか、クリックしてアップロードしてください。 | ファイルをドラッグするか、クリックしてアップロードしてください。',
+            'input_files_selected' => '{count} 個のファイルが選択されました | {count} 個のファイルが選択されました',
+            'email_verified' => 'メールアドレスが正常に確認されました！',
+            'member_since' => 'メンバー登録日: {date}',
+            'verification_sent' => '確認メールが送信されました。',
+        ],
+        'buttons' => [
+            'add_new' => '新規追加',
+            'filters' => 'フィルター',
+            'save' => '保存',
+            'send' => '送信',
+            'submit' => '送信',
+            'login' => 'ログイン',
+            'register' => '登録',
+            'search' => '検索',
+            'new_record' => '新規作成',
+            'documentation' => 'ドキュメント',
+            'back' => '戻る',
+            'upload' => 'アップロード',
+            'update' => '更新',
+            'change_avatar' => 'アバター変更',
+        ],
+        'actions' => [
+            'name' => 'アクション',
+            'edit' => '編集',
+            'delete' => '削除',
+        ],
+        'alerts' => [
+            'success' => '成功！',
+            'warning' => '警告！',
+            'danger' => 'エラー！',
+            'confirm' => '確認！',
+            'confirm_action_message' => 'この操作を実行してもよろしいですか？',
+        ],
+    ],
+];
