@@ -12,7 +12,6 @@ class RegisterController extends Controller
 {
     public function register(Request $request): JsonResponse
     {
-        // Validate dữ liệu
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
             'email' => 'required|email|unique:users,email',
